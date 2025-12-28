@@ -1,5 +1,3 @@
-package myjava;
-
 class Account {
 	private double money;
 	public Account(double money) {

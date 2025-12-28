@@ -1,5 +1,3 @@
-package myjava;
-
 public class Text6 {
 
 	public static void main(String[] args) {
