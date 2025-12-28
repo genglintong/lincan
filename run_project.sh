@@ -151,6 +151,22 @@ main() {
         "bank-account")
             compile_and_run_bank_account "$date" "bank-account"
             ;;
+        # 20250101新增项目
+        "input-validation")
+            compile_and_run "$date" "input-validation" "AgeClassifier.java" "AgeClassifier"
+            ;;
+        "array-optimization")
+            compile_and_run "$date" "array-optimization" "ScoreManager.java" "ScoreManager"
+            ;;
+        "method-extraction")
+            compile_and_run "$date" "method-extraction" "EmployeeManager.java" "EmployeeManager"
+            ;;
+        "enhanced-calculator")
+            compile_and_run "$date" "enhanced-calculator" "SavingsPlanner.java" "SavingsPlanner"
+            ;;
+        "advanced-banking")
+            compile_and_run "$date" "advanced-banking" "BankSystem.java" "BankSystem"
+            ;;
         *)
             echo -e "${RED}错误: 未知项目 '$project'${NC}"
             show_help
